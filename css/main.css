@@ -5,10 +5,62 @@
 
 body {
   background-color: #ebebeb;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  max-width: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   background: white;
+  max-width: 400px;
+  -webkit-box-shadow: 20px 20px 40px #c9c9c9;
+          box-shadow: 20px 20px 40px #c9c9c9;
+  border-radius: 1em;
+  position: relative;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top a {
+  color: red;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.avatar-img {
+  width: 30px;
+}
+
+.hero-img {
+  width: 500px;
+  position: relative;
+  right: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+.caption {
+  color: #029739;
+}
+
+.form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,19 +68,45 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
+  margin: 10px;
 }
 
-.top {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: none;
+  background: #dcdcdc;
+}
+
+button {
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #029739;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.login {
+  color: red;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+.login:visited {
+  color: #029739;
 }
 /*# sourceMappingURL=main.css.map */
