@@ -34,11 +34,12 @@ li {
 nav a {
   font-size: 1em !important;
   font-weight: 700 !important;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease;
+  -webkit-transition: 400ms ease;
+  transition: 400ms ease;
 }
 
 nav a:hover {
+  color: #029739 !important;
   text-decoration: underline;
 }
 

@@ -29,10 +29,10 @@ nav{
     a{
         font-size: 1em !important;
         font-weight: 700 !important;
-        transition: 500ms ease;
+        transition: 400ms ease;
 
         &:hover{
-            // color: #029739;
+            color: #029739 !important;
             text-decoration: underline;
         }
     }
@@ -98,7 +98,7 @@ button{
     cursor: pointer;
 
     &:hover{
-        background-color: rgb(2, 151, 57);
+        background-color: #029739;
         transform:scale(1.01) ;
     }
 }
