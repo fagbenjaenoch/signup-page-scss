@@ -18,6 +18,14 @@ h1{
     text-align: center;
     word-spacing: 5px;
 }
+ul{
+    list-style-type: none;
+    color: red;
+}
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
 .container{
     background: white;
     max-width: 400px;
