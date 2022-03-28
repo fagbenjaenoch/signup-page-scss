@@ -20,11 +20,22 @@ h1{
 }
 ul{
     list-style-type: none;
-    color: red;
 }
 li{
     display: inline-block;
     margin: 0 10px;
+}
+nav{
+    a{
+        font-size: 1em !important;
+        font-weight: 700 !important;
+        transition: 500ms ease;
+
+        &:hover{
+            // color: #029739;
+            text-decoration: underline;
+        }
+    }
 }
 .container{
     background: white;
@@ -42,7 +53,7 @@ li{
     justify-content: space-between;
 
     a{
-        color: red;
+        color: #000;
         font-size: 1.3em;
         font-weight: bold;
     }
@@ -59,7 +70,7 @@ p{
     text-align: center;
 }
 .caption{
-    color: rgb(2, 151, 57);
+    color: #029739;
 }
 .form-container{
     display: flex;

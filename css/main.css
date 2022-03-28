@@ -24,12 +24,22 @@ h1 {
 
 ul {
   list-style-type: none;
-  color: red;
 }
 
 li {
   display: inline-block;
   margin: 0 10px;
+}
+
+nav a {
+  font-size: 1em !important;
+  font-weight: 700 !important;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -55,7 +65,7 @@ li {
 }
 
 .top a {
-  color: red;
+  color: #000;
   font-size: 1.3em;
   font-weight: bold;
 }
