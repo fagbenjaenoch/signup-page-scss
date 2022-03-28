@@ -6,12 +6,17 @@
 body{
     background-color: #ebebeb;
     display: grid;
-    place-content: center;
+    // place-content: center;
     max-width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
+}
+h1{
+    color: red;
+    text-align: center;
+    word-spacing: 5px;
 }
 .container{
     background: white;
@@ -20,9 +25,11 @@ a{
     border-radius: 1em;
     position: relative;
     padding: 20px;
-    margin: 100px auto;
+    margin: 20px auto;
 }
 .top{
+    margin: 0 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 
