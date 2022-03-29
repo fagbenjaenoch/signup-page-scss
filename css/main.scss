@@ -9,7 +9,7 @@
     --c3: #ebebeb; 
 }
 body{
-    background-color: #ebebeb;
+    background-color: var(--c3);
     display: grid;
     // place-content: center;
     max-width: 100%;
@@ -19,7 +19,7 @@ a{
     text-decoration: none;
 }
 h1{
-    color: red;
+    color: var(--c1);
     text-align: center;
     word-spacing: 5px;
 }
@@ -37,7 +37,7 @@ nav{
         transition: 400ms ease;
 
         &:hover{
-            color: #029739 !important;
+            color: var(--c2) !important;
             text-decoration: underline;
         }
     }

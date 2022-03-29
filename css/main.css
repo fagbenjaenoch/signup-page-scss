@@ -4,8 +4,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --c1: red;
+  --c2: #029739;
+  --c3: #ebebeb;
+}
+
 body {
-  background-color: #ebebeb;
+  background-color: var(--c3);
   display: -ms-grid;
   display: grid;
   max-width: 100%;
@@ -17,7 +23,7 @@ a {
 }
 
 h1 {
-  color: red;
+  color: var(--c1);
   text-align: center;
   word-spacing: 5px;
 }
@@ -39,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #029739 !important;
+  color: var(--c2) !important;
   text-decoration: underline;
 }
 
