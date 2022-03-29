@@ -142,6 +142,6 @@ button:hover {
 }
 
 .login:visited {
-  color: #029739;
+  color: var(--c2);
 }
 /*# sourceMappingURL=main.css.map */

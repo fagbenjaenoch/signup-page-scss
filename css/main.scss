@@ -114,6 +114,6 @@ button{
         text-decoration: underline;
     }
     &:visited{
-        color: rgb(2, 151, 57);
+        color: var(--c2);
     }
 }
