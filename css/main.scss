@@ -103,7 +103,7 @@ button{
     cursor: pointer;
 
     &:hover{
-        background-color: #029739;
+        background-color: var(--c2);
         transform:scale(1.01) ;
     }
 }

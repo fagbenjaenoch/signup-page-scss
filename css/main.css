@@ -128,7 +128,7 @@ button {
 }
 
 button:hover {
-  background-color: #029739;
+  background-color: var(--c2);
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
 }
