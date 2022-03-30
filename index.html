@@ -28,14 +28,15 @@
         <h1>Signup to Kazoo</h1>
         <img src="images/hero-img.png" alt="coding illustration" class="hero-img">
         <p class="caption">Join Millions of growing developers</p>
-        
-        <div class="form-container">
-            <input type="text" required placeholder="Firstname" required>                    
-            <input type="text" required placeholder="Surname" required>                    
-            <input type="email" required placeholder="Email" required>                    
-            <input type="password" required placeholder="Password" required> 
-            <button type="submit" class="signup">Sign up</button>                   
-        </div>
+        <form action="main.php" method="post">
+            <div class="form-container">
+                <input type="text" required placeholder="Firstname" required>                    
+                <input type="text" required placeholder="Surname" required>                    
+                <input type="email" required placeholder="Email" required>                    
+                <input type="password" required placeholder="Password" required> 
+                <button type="submit" class="signup">Sign up</button>                   
+            </div>
+         </form>
         <p>Already have an account? <a href="#" class="login">Login</a></p>
     </div>
 </body>
