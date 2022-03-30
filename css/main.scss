@@ -7,6 +7,7 @@
     --c1: red;
     --c2: #029739;
     --c3: #ebebeb; 
+    --h1: #797979;
 }
 body{
     background-color: var(--c3);
@@ -45,8 +46,8 @@ nav{
 
 
         &:hover{
-            color: var(--c2) ;
-            text-decoration: underline;
+            color:  var(--h1);
+            // text-decoration: underline;
         }
     }
 }
@@ -58,7 +59,7 @@ nav{
     transition: 400ms ease;
 
     &:hover{
-        color: var(--c2);
+        color: #a7a7a7;
         text-decoration: none;
     }
 }
