@@ -40,6 +40,7 @@ li {
 .logo {
   font-weight: 700;
   font-size: 1.5em;
+  color: var(--c1);
 }
 
 nav a {
