@@ -38,14 +38,14 @@ li {
 }
 
 nav a {
-  font-size: 1em !important;
-  font-weight: 700 !important;
+  font-size: 1em;
+  font-weight: 700;
   -webkit-transition: 400ms ease;
   transition: 400ms ease;
 }
 
 nav a:hover {
-  color: var(--c2) !important;
+  color: var(--c2);
   text-decoration: underline;
 }
 
@@ -69,12 +69,6 @@ nav a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.top a {
-  color: #000;
-  font-size: 1.3em;
-  font-weight: bold;
 }
 
 .avatar-img {
