@@ -61,6 +61,13 @@ nav a:hover {
   color: var(--c3);
   border-radius: 20px;
   padding: 10px;
+  -webkit-transition: 400ms ease;
+  transition: 400ms ease;
+}
+
+.active:hover {
+  color: var(--c2);
+  text-decoration: none;
 }
 
 .container {

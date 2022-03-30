@@ -55,6 +55,12 @@ nav{
     color: var(--c3);
     border-radius: 20px;
     padding: 10px;
+    transition: 400ms ease;
+
+    &:hover{
+        color: var(--c2);
+        text-decoration: none;
+    }
 }
 .container{
     background: white;
